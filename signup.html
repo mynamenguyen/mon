@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/me.css" />
+  </head>
+  <body>
+    <div
+      class="signup_container"
+      style="display: flex; align-items: center; justify-content: space-between"
+    >
+      <div class="signup_content">
+        <h1 class="signup_title">Sign Up</h1>
+        <p class="message__login">
+          Don't have an account? <a href="signin.html">Sign In</a>
+        </p>
+        <form action="" class="form-signup" id="form-signup">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input
+              type="text"
+              id="firstName"
+              placeholder="First Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Username</label>
+            <input type="text" id="lastName" placeholder="Last Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Email address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="Password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <button type="submit" id="submit-btn">Sign Up</button>
+          </div>
+        </form>
+      </div>
+      <div class="signup_image">
+        <img
+          src="https://divedigital.id/en/wp-content/uploads/2023/08/14.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <script type="module" src="./js/signup.js"></script>
+  </body>
+</html>

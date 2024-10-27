@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./css/me.css" />
+  </head>
+  <body>
+    <div
+      class="signup_container"
+      style="
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div class="signup_content">
+        <h1 class="signup_title">Sign In</h1>
+        <p class="message__login">
+          Don't have an account? <a href="signup.html">Sign Up</a>
+        </p>
+        <form action="" class="formSignUp" id="form-signin">
+          <div class="form-group">
+            <label for="email">email</label>
+            <input type="email" id="email" placeholder="email" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <button type="submit" id="submit-btn">Sign In</button>
+          </div>
+        </form>
+      </div>
+      <div class="signup_image">
+        <img
+          src="https://divedigital.id/en/wp-content/uploads/2023/08/14.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <script type="module" src="./js/signin.js"></script>
+  </body>
+</html>
